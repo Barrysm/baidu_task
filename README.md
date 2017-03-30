@@ -1,1 +1,1 @@
-This respository is inside the task of Baidu front-end college.
+Baidu front-end college tasks are in this repository.
