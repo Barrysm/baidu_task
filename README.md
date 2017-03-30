@@ -1,1 +1,1 @@
-Baidu front-end college tasks are in this repository.
+Baidu institute of Front End Technology tasks are in this repository.
