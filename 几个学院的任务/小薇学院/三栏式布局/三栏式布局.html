@@ -1,27 +1,37 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html"/>
     <meta charset="UTF-8">
     <title>三栏式布局</title>
     <style type="text/css">
-        body{padding:20px;background-color:#eee;border:solid #999;}
+        body{padding:20px;background-color:#eee;border:solid #999;overflow:auto;}
         #aside_left {
-            width: 200px;
+            width: 200px;float:left;
         }
         #aside_right{
-            width: 120px;}
+            width: 120px;float:right;}
+        #section_center{display:inline;}
+        #section_center:after{content: "020";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;}
     </style>
 </head>
 <body>
     <aside id="aside_left">
-
+        <img src="../../图片音频视频素材/缩小的图案80_80.jpg" alt="a small image" />
+    </aside>
+    <aside id="aside_right">
+        <img src="../../图片音频视频素材/哈士奇缩小图80_80.jpg" alt="this a image of a dog" />
+        <img src="../../图片音频视频素材/浣熊缩小图80_80.jpg" alt="this a image" />
+        <img src="../../图片音频视频素材/猫缩小图80_80.jpg" alt="this a image of a cat" />
+        <img src="../../图片音频视频素材/考拉缩小图80_80.jpg" alt="this a image" />
     </aside>
     <section id="section_center">
-
+        <p>这是一个团队
+        </p>
     </section>
-    <aside id="aside_right">
-
-    </aside>
 </body>
 </html>
